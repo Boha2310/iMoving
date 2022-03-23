@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>iMOVING 1.0-SNAPSHOT</td>
+              <td>1</td>
+            <td>17 &#1084;&#1072;&#1088; 2022, 18:18</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.boxes_pop_up_should_appear_with_button(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="626000000">0.626</td>
+              <td class="duration" data-value="626000000">0.626</td>
+              <td class="duration" data-value="626000000">0.626</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.pop_up_should_appear(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1388000000">1.388</td>
+              <td class="duration" data-value="1388000000">1.388</td>
+              <td class="duration" data-value="1388000000">1.388</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_click_compare_quotes_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1936000000">1.936</td>
+              <td class="duration" data-value="1936000000">1.936</td>
+              <td class="duration" data-value="1936000000">1.936</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_click_on_continue_button_in_these_are_recommended_rooms_for_a_popup()</td>
+              <td>1</td>
+              <td class="duration" data-value="242000000">0.242</td>
+              <td class="duration" data-value="242000000">0.242</td>
+              <td class="duration" data-value="242000000">0.242</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_click_on_got_it_button_in_boxes_pop_up()</td>
+              <td>1</td>
+              <td class="duration" data-value="260000000">0.260</td>
+              <td class="duration" data-value="260000000">0.260</td>
+              <td class="duration" data-value="260000000">0.260</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_clicks_to_next_button_in_here_you_can_see_all_your_rooms_and_start_moving()</td>
+              <td>1</td>
+              <td class="duration" data-value="227000000">0.227</td>
+              <td class="duration" data-value="227000000">0.227</td>
+              <td class="duration" data-value="227000000">0.227</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_clicks_to_next_here_you_can_see_inventory_items_for_selected_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="226000000">0.226</td>
+              <td class="duration" data-value="226000000">0.226</td>
+              <td class="duration" data-value="226000000">0.226</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_clicks_to_ok_press_this_button_to_save_choosed_items_and_move_to_the_next_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="262000000">0.262</td>
+              <td class="duration" data-value="262000000">0.262</td>
+              <td class="duration" data-value="262000000">0.262</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_is_on_qa_environment()</td>
+              <td>1</td>
+              <td class="duration" data-value="9595000000">9.595</td>
+              <td class="duration" data-value="9595000000">9.595</td>
+              <td class="duration" data-value="9595000000">9.595</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_see_box_calculator()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_add_flight_of_stairs(java.lang.Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="5000000">0.005</td>
+              <td class="duration" data-value="5000000">0.005</td>
+              <td class="duration" data-value="5000000">0.005</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_and_continue_in_box_calculator()</td>
+              <td>1</td>
+              <td class="duration" data-value="250000000">0.250</td>
+              <td class="duration" data-value="250000000">0.250</td>
+              <td class="duration" data-value="250000000">0.250</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_basket_hamper_in_bathroom()</td>
+              <td>1</td>
+              <td class="duration" data-value="362000000">0.362</td>
+              <td class="duration" data-value="362000000">0.362</td>
+              <td class="duration" data-value="362000000">0.362</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_bed_in_bedroom()</td>
+              <td>1</td>
+              <td class="duration" data-value="356000000">0.356</td>
+              <td class="duration" data-value="356000000">0.356</td>
+              <td class="duration" data-value="356000000">0.356</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_dresser_in_bedroom()</td>
+              <td>1</td>
+              <td class="duration" data-value="368000000">0.368</td>
+              <td class="duration" data-value="368000000">0.368</td>
+              <td class="duration" data-value="368000000">0.368</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_kitchen_dining_chairs_in_dining_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="336000000">0.336</td>
+              <td class="duration" data-value="336000000">0.336</td>
+              <td class="duration" data-value="336000000">0.336</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_kitchen_dining_chairs_in_kitchen_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="388000000">0.388</td>
+              <td class="duration" data-value="388000000">0.388</td>
+              <td class="duration" data-value="388000000">0.388</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_kitchen_dining_table_in_dining_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="338000000">0.338</td>
+              <td class="duration" data-value="338000000">0.338</td>
+              <td class="duration" data-value="338000000">0.338</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_kitchen_dining_table_in_kitchen_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="357000000">0.357</td>
+              <td class="duration" data-value="357000000">0.357</td>
+              <td class="duration" data-value="357000000">0.357</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_outdoor_chair_in_patio()</td>
+              <td>1</td>
+              <td class="duration" data-value="398000000">0.398</td>
+              <td class="duration" data-value="398000000">0.398</td>
+              <td class="duration" data-value="398000000">0.398</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_outdoors_table_in_patio()</td>
+              <td>1</td>
+              <td class="duration" data-value="403000000">0.403</td>
+              <td class="duration" data-value="403000000">0.403</td>
+              <td class="duration" data-value="403000000">0.403</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_sofa_in_living_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="502000000">0.502</td>
+              <td class="duration" data-value="502000000">0.502</td>
+              <td class="duration" data-value="502000000">0.502</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_trash_can_in_bathroom()</td>
+              <td>1</td>
+              <td class="duration" data-value="338000000">0.338</td>
+              <td class="duration" data-value="338000000">0.338</td>
+              <td class="duration" data-value="338000000">0.338</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_add_to_inventory_tv_in_living_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="348000000">0.348</td>
+              <td class="duration" data-value="348000000">0.348</td>
+              <td class="duration" data-value="348000000">0.348</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_to_pick_up_form()</td>
+              <td>1</td>
+              <td class="duration" data-value="5238000000">5.238</td>
+              <td class="duration" data-value="5238000000">5.238</td>
+              <td class="duration" data-value="5238000000">5.238</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_to_save_and_go_to_next_in_bathroom()</td>
+              <td>1</td>
+              <td class="duration" data-value="238000000">0.238</td>
+              <td class="duration" data-value="238000000">0.238</td>
+              <td class="duration" data-value="238000000">0.238</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_to_save_and_go_to_next_in_bedroom()</td>
+              <td>1</td>
+              <td class="duration" data-value="330000000">0.330</td>
+              <td class="duration" data-value="330000000">0.330</td>
+              <td class="duration" data-value="330000000">0.330</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_to_save_and_go_to_next_in_dining_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="271000000">0.271</td>
+              <td class="duration" data-value="271000000">0.271</td>
+              <td class="duration" data-value="271000000">0.271</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_to_save_and_go_to_next_in_kitchen_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="250000000">0.250</td>
+              <td class="duration" data-value="250000000">0.250</td>
+              <td class="duration" data-value="250000000">0.250</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_to_save_and_go_to_next_in_living_room()</td>
+              <td>1</td>
+              <td class="duration" data-value="287000000">0.287</td>
+              <td class="duration" data-value="287000000">0.287</td>
+              <td class="duration" data-value="287000000">0.287</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_click_to_save_and_go_to_next_in_patio()</td>
+              <td>1</td>
+              <td class="duration" data-value="218000000">0.218</td>
+              <td class="duration" data-value="218000000">0.218</td>
+              <td class="duration" data-value="218000000">0.218</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_see(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="60000000">0.060</td>
+              <td class="duration" data-value="60000000">0.060</td>
+              <td class="duration" data-value="60000000">0.060</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_see_form(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1019000000">1.019</td>
+              <td class="duration" data-value="1019000000">1.019</td>
+              <td class="duration" data-value="1019000000">1.019</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_see_hint(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="74000000">0.074</td>
+              <td class="duration" data-value="74000000">0.074</td>
+              <td class="duration" data-value="74000000">0.074</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_see_the_hint(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="62000000">0.062</td>
+              <td class="duration" data-value="62000000">0.062</td>
+              <td class="duration" data-value="62000000">0.062</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_select_in_move_size_drop_down_menu(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="61000000">0.061</td>
+              <td class="duration" data-value="61000000">0.061</td>
+              <td class="duration" data-value="61000000">0.061</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.HomePageSteps.user_should_select_in_what_are_you_moving_drop_down(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="5085000000">5.085</td>
+              <td class="duration" data-value="5085000000">5.085</td>
+              <td class="duration" data-value="5085000000">5.085</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.Hooks.setUp()</td>
+              <td>1</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.imoving.UI.stepDefs.Hooks.teatDown(io.cucumber.java.Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="816000000">0.816</td>
+              <td class="duration" data-value="816000000">0.816</td>
+              <td class="duration" data-value="816000000">0.816</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>39</td>
+            <td>39</td>
+            <td class="duration">0.859</td>
+            <td class="duration">9.595</td>
+            <td class="duration">33.521</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

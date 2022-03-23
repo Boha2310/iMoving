@@ -1,0 +1,131 @@
+[INFO ] 2022-03-22 21:12:41.131 [main] Helper - Pausing system for 5000
+[DEBUG] 2022-03-22 21:12:41.132 [main] Helper - Trying to pause the system
+[INFO ] 2022-03-22 21:12:46.231 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[2]/div/main/section[1]/figure/div/div/div[2]/div[1]/form/div[3]/button]
+[DEBUG] 2022-03-22 21:12:46.236 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[2]/div/main/section[1]/figure/div/div/div[2]/div[1]/form/div[3]/button]
+[INFO ] 2022-03-22 21:12:46.265 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:49.430 [main] Helper - Element is clicked
+[DEBUG] 2022-03-22 21:12:50.296 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div/div[1]/h2/span[1]]
+[INFO ] 2022-03-22 21:12:50.324 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a[2]/span[1]]
+[DEBUG] 2022-03-22 21:12:50.341 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a[2]/span[1]]
+[INFO ] 2022-03-22 21:12:50.358 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:50.552 [main] Helper - Element is clicked
+[DEBUG] 2022-03-22 21:12:50.568 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a]
+[INFO ] 2022-03-22 21:12:51.134 [main] Helper - get text
+[DEBUG] 2022-03-22 21:12:51.140 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a]
+[INFO ] 2022-03-22 21:12:51.195 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a]
+[DEBUG] 2022-03-22 21:12:51.200 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a]
+[INFO ] 2022-03-22 21:12:51.238 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:51.436 [main] Helper - Element is clicked
+[DEBUG] 2022-03-22 21:12:51.448 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/section[1]/div/p[1]]
+[INFO ] 2022-03-22 21:12:51.466 [main] Helper - get text
+[DEBUG] 2022-03-22 21:12:51.473 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/section[1]/div/p[1]]
+[INFO ] 2022-03-22 21:12:51.513 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> id: nextInventoryTutorial]
+[DEBUG] 2022-03-22 21:12:51.519 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> id: nextInventoryTutorial]
+[INFO ] 2022-03-22 21:12:51.534 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:51.746 [main] Helper - Element is clicked
+[DEBUG] 2022-03-22 21:12:51.758 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/section[2]/div/p[1]]
+[INFO ] 2022-03-22 21:12:51.773 [main] Helper - get text
+[DEBUG] 2022-03-22 21:12:51.778 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/section[2]/div/p[1]]
+[INFO ] 2022-03-22 21:12:51.814 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> id: nextNextRoomTutorial]
+[DEBUG] 2022-03-22 21:12:51.819 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> id: nextNextRoomTutorial]
+[INFO ] 2022-03-22 21:12:51.836 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:52.020 [main] Helper - Element is clicked
+[DEBUG] 2022-03-22 21:12:52.030 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/section[3]/div/p[1]]
+[INFO ] 2022-03-22 21:12:52.045 [main] Helper - get text
+[DEBUG] 2022-03-22 21:12:52.051 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/section[3]/div/p[1]]
+[INFO ] 2022-03-22 21:12:52.086 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> id: closeTutorial2]
+[DEBUG] 2022-03-22 21:12:52.091 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> id: closeTutorial2]
+[INFO ] 2022-03-22 21:12:52.104 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:52.292 [main] Helper - Element is clicked
+[DEBUG] 2022-03-22 21:12:52.302 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/img]
+[INFO ] 2022-03-22 21:12:52.479 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:52.489 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:52.505 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:52.707 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:52.847 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:52.853 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:52.867 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:53.056 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:53.066 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
+[DEBUG] 2022-03-22 21:12:53.072 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
+[INFO ] 2022-03-22 21:12:53.086 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:53.370 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:53.539 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:53.544 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:53.558 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:53.768 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:53.897 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:53.903 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:53.919 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:54.114 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:54.124 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button/div[1]]
+[DEBUG] 2022-03-22 21:12:54.129 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button/div[1]]
+[INFO ] 2022-03-22 21:12:54.143 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:54.407 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:54.560 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:54.574 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:54.594 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:54.823 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:54.965 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:54.974 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:54.989 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:55.155 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:55.162 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
+[DEBUG] 2022-03-22 21:12:55.167 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
+[INFO ] 2022-03-22 21:12:55.180 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:55.436 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:55.568 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:55.574 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:55.589 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:55.794 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:55.958 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:55.966 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:55.983 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:56.196 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:56.203 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
+[DEBUG] 2022-03-22 21:12:56.208 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
+[INFO ] 2022-03-22 21:12:56.222 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:56.439 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:56.605 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:56.616 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:56.653 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:56.862 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:57.026 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:57.040 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:57.062 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:57.275 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:57.281 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
+[DEBUG] 2022-03-22 21:12:57.287 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
+[INFO ] 2022-03-22 21:12:57.299 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:57.563 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:57.712 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:57.721 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:57.737 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:57.931 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:58.088 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[DEBUG] 2022-03-22 21:12:58.096 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]]
+[INFO ] 2022-03-22 21:12:58.112 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:58.323 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:58.329 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
+[DEBUG] 2022-03-22 21:12:58.334 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
+[INFO ] 2022-03-22 21:12:58.346 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:58.552 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:12:58.578 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div[1]/div/div/div/a[4]]
+[DEBUG] 2022-03-22 21:12:58.584 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div[1]/div/div/div/a[4]]
+[INFO ] 2022-03-22 21:12:58.606 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:12:58.812 [main] Helper - Element is clicked
+[DEBUG] 2022-03-22 21:12:59.192 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div[1]/main/div/section[2]/div[1]/div[1]/h2]
+[INFO ] 2022-03-22 21:12:59.734 [main] Helper - get text
+[DEBUG] 2022-03-22 21:12:59.739 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div[1]/main/div/section[2]/div[1]/div[1]/h2]
+[INFO ] 2022-03-22 21:13:00.197 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div[1]/main/div/section[2]/div[1]/div[1]/div[1]/address-selection/div/input-auto-complete-address/span/input]
+[DEBUG] 2022-03-22 21:13:00.201 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div[1]/main/div/section[2]/div[1]/div[1]/div[1]/address-selection/div/input-auto-complete-address/span/input]
+[INFO ] 2022-03-22 21:13:00.218 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:13:00.410 [main] Helper - Element is clicked
+[INFO ] 2022-03-22 21:13:00.410 [main] Helper - Pausing system for 5000
+[DEBUG] 2022-03-22 21:13:00.410 [main] Helper - Trying to pause the system
+[DEBUG] 2022-03-22 21:13:05.428 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div[1]/main/div/section[2]/div[1]/div[1]/div[1]/address-selection/div/address-instructions/div/div[2]/ul/li[1]/div/div/button[2]]
+[INFO ] 2022-03-22 21:13:05.443 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:13:05.711 [main] Helper - I am trying to click [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div[1]/main/div/section[2]/div[1]/div[1]/div[1]/address-selection/div/input-auto-complete-address/span/input]
+[DEBUG] 2022-03-22 21:13:05.715 [main] Helper - Waiting dor element to be displayed [[ChromeDriver: chrome on WINDOWS (85f0fcd670817adad5d15ce7fd92c131)] -> xpath: /html/body/div[1]/div/div/div[1]/main/div/section[2]/div[1]/div[1]/div[1]/address-selection/div/input-auto-complete-address/span/input]
+[INFO ] 2022-03-22 21:13:05.727 [main] Helper - Waiting foe element to be clickable
+[INFO ] 2022-03-22 21:13:05.914 [main] Helper - Element is clicked

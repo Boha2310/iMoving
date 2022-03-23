@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.imoving.UI.runners.SmokeRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.501 s <<< FAILURE! - in com.imoving.UI.runners.SmokeRunner
+Verify user can add items to each room(Home page functionalities)  Time elapsed: 33.728 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
